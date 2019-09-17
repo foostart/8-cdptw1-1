@@ -1,0 +1,126 @@
+/*
+	==================================================================================================================
+												BEGIN BANNER 
+	==================================================================================================================
+*/
+.type-1824{
+	@color-1: #fff;
+	@color-2: #dcdcdc;
+	@color-3: #aa0101;
+	@color-4: #800000;
+	.kc{
+		margin-top: 15px;
+		margin-bottom: 15px;
+		text-align: center;
+	}
+	.row{
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.panel
+	{
+	    text-align: center;
+	}
+	.panel:hover { 
+		box-shadow: 0 1px 5px rgba(0, 0, 0, 0.4), 0 1px 5px rgba(130, 130, 130, 0.35); 
+	}
+	.panel-body
+	{
+	    padding: 0px;
+	    text-align: center;
+	}
+	.btn-success:hover{
+		box-shadow: 0 1px 5px rgba(0, 0, 0, 0.4), 0 1px 5px rgba(130, 130, 130, 0.35); 
+		color: #000;
+
+	}
+	.the-price
+	{
+	    background-color: rgba(220,220,220,.17);
+	    box-shadow: 0 1px 0 @color-2, inset 0 1px 0 @color-1;
+	    padding: 20px;
+	    margin: 0;
+	}
+	.the-price h1
+	{
+	    line-height: 1em;
+	    padding: 0;
+	    margin: 0;
+	}
+	.subscript
+	{
+	    font-size: 25px;
+	}
+	.cnrflash
+	{
+	    position: absolute;
+	    top: -9px;
+	    right: 4px;
+	    z-index: 1; 
+	    overflow: hidden;
+	    width: 100px;
+	    height: 100px;
+	    border-radius: 3px 5px 3px 0;
+	}
+	.cnrflash-inner
+	{
+	    position: absolute;
+	    bottom: 0;
+	    right: 0;
+	    width: 145px;
+	    height: 145px;
+	    -ms-transform: rotate(45deg); 
+	    -o-transform: rotate(45deg); 
+	    -moz-transform: rotate(45deg);
+	    -webkit-transform: rotate(45deg); 
+	    -webkit-transform-origin: 100% 100%; 
+	    -ms-transform-origin: 100% 100%;  
+	    -o-transform-origin: 100% 100%; 
+	    -moz-transform-origin: 100% 100%;
+	    background-size: 4px,auto, auto,auto;
+	    background-color: @color-3;
+	    box-shadow: 0 3px 3px 0 rgba(1,1,1,.5), 0 1px 0 0 rgba(1,1,1,.5), inset 0 -1px 8px 0 rgba(255,255,255,.3), inset 0 -1px 0 0 rgba(255,255,255,.2);
+	}
+	.cnrflash-inner:before, .cnrflash-inner:after
+	{
+	    content: " ";
+	    display: block;
+	    position: absolute;
+	    bottom: -16px;
+	    width: 0;
+	    height: 0;
+	    border: 8px solid @color-4;
+	}
+	.cnrflash-inner:before
+	{
+	    left: 1px;
+	    border-bottom-color: transparent;
+	    border-right-color: transparent;
+	}
+	.cnrflash-inner:after
+	{
+	    right: 0;
+	    border-bottom-color: transparent;
+	    border-left-color: transparent;
+	}
+	.cnrflash-label
+	{
+	    position: absolute;
+	    bottom: 0;
+	    left: 0;
+	    display: block;
+	    width: 100%;
+	    padding-bottom: 5px;
+	    color: @color-1;
+	    text-shadow: 0 1px 1px rgba(1,1,1,.8);
+	    font-size: 0.95em;
+	    font-weight: bold;
+	    text-align: center;
+	}
+
+}
+/*
+	==================================================================================================================
+												END BANNER 
+	==================================================================================================================
+*/
