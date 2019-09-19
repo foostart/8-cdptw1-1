@@ -1,6 +1,6 @@
 .type-1823 .swiper-container {
   position: relative;
-  overflow: hidden;
+  overflow: auto;
   list-style: none;
 }
 .type-1823 .swiper-container .swiper-wrapper {
@@ -124,6 +124,9 @@
 }
 .type-1823 .swiper-container .fa-angle-left:hover {
   color: #896255;
+}
+.type-1823 .swiper-pagination-bullets {
+  top: 74%;
 }
 .type-1823 .swiper-container-horizontal>.swiper-pagination-bullets .swiper-pagination-bullet {
   margin: 0 0.5rem;

@@ -33,6 +33,6 @@ $less->compileFile('less/1823.less', 'css/1823.css');
         <script src="<?php echo $url_path ?>/js/1823.js"></script>
     </head>
     <body> 
-        <?php include '../1823/1823-content.php'; ?>
+        <?php include '../1721/1823-content.php'; ?>
     </body>
 </html>

@@ -30,6 +30,6 @@ $less->compileFile('less/1824.less', 'css/1824.css');
         <link href="<?php echo $url_path ?>/css/1824.css" rel="stylesheet" type="text/css"/>
     </head>
     <body>
-        <?php include '../1824/1824-content.php'; ?>
+        <?php include '../1722/1824-content.php'; ?>
     </body>
 </html>

@@ -30,6 +30,6 @@ $less->compileFile('less/1825.less', 'css/1825.css');
         <link href="<?php echo $url_path ?>/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
     </head>
     <body>
-        <?php include '../1825/1825-content.php'; ?>
+        <?php include '../1723/1825-content.php'; ?>
     </body>
 </html>
