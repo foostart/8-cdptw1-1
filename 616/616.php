@@ -19,7 +19,6 @@
 ?>
 <!DOCTYPE html>
 <html lang="en">
-
     <head lang="fr">
         <title>616</title>
         <meta charset="UTF-8">

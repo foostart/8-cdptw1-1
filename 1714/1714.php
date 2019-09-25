@@ -17,7 +17,7 @@ $less->compileFile('less/1714.less', 'css/1714.css');
 ?>
 <html lang="en">
 <head>
-    <title>1787</title>
+    <title>1714</title>
     <meta charset="utf-8">
     <meta name="msapplication-tap-highlight" content="no" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
