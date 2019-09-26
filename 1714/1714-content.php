@@ -13,7 +13,7 @@ $url_path = str_replace('\\', '/', $url_path);
 ?>
 <div class="type-1787">
     <div class="container">
-        <div class="row item grid"> 
+        <div class="row item"> 
           <div class="col-md-3"></div>
           <div class="col-md-6">
             <div class="sidebar_widget ">

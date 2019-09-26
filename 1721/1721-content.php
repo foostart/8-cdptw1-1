@@ -52,10 +52,8 @@ $url_path = str_replace('\\', '/', $url_path);
         </div>
         <!-- Add Pagination -->
         <div class="swiper-pagination"></div>
-        <div class="contact">
             <div class="swiper-button-next"><i class="fa fa-angle-right" aria-hidden="true"></i></div>
             <div class="swiper-button-prev"><i class="fa fa-angle-left" aria-hidden="true"></i></div>
-        </div>
     </div>
 </div>
 
