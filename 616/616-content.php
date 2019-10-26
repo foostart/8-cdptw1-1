@@ -24,36 +24,36 @@ $url_path = str_replace('\\', '/', $url_path);
                 <label class="control-label" for="billinginformation">Shipping Information</label>
             </div>
 
-            <div class="shipping-info">
-                <div class="form-group col-md-6">
+            <div class="shipping-info ">
+                <div class="form-group col-md-6 pd0">
                     <span class="required-lbl">* </span><label class="control-label" for="firstname">First Name</label>
                     <div class="controls">
                         <input id="firstname" name="firstname" type="text" placeholder="" class="form-control" required="">
                     </div>
                 </div>
 
-                <div class="form-group col-md-6">
+                <div class="form-group col-md-6 pd0">
                     <span class="required-lbl">* </span><label class="control-label" for="lastname">Last Name</label>
                     <div class="controls">
                         <input id="lastname" name="lastname" type="text" placeholder="" class="form-control" required="">
                     </div>
                 </div>
 
-                <div class="form-group col-md-6">
+                <div class="form-group col-md-6 pd0">
                     <span class="required-lbl">* </span><label class="control-label" for="shippingaddress1">Shipping Address 1</label>
                     <div class="controls">
                         <input id="shippingaddress1" name="shippingaddress1" type="text" placeholder="" class="form-control" required="">
                     </div>
                 </div>
 
-                <div class="form-group col-md-6">
+                <div class="form-group col-md-6 pd0">
                     <label class="control-label" for="shippingaddress2">Shipping Address 2</label>
                     <div class="controls">
                         <input id="shippingaddress2" name="shippingaddress2" type="text" placeholder="" class="form-control" required="">
                     </div>
                 </div>
 
-                <div class="form-group col-md-6">
+                <div class="form-group col-md-6 pd0">
                     <span class="required-lbl">* </span><label class="control-label" for="shippingcountry">Shipping Country</label>
                     <div class="controls">
                         <div class="controls">
@@ -65,7 +65,7 @@ $url_path = str_replace('\\', '/', $url_path);
                     </div>
                 </div>
 
-                <div class="form-group col-md-6">
+                <div class="form-group col-md-6 pd0">
                     <span class="required-lbl">* </span><label class="control-label" for="shippingstate">Shipping State</label>
                     <div class="controls">
                         <select id="shippingstate" name="shippingstate" class="input-xlarge">
@@ -83,14 +83,14 @@ $url_path = str_replace('\\', '/', $url_path);
                     </div>
                 </div>
 
-                <div class="form-group col-md-6">
+                <div class="form-group col-md-6 pd0">
                     <span class="required-lbl">* </span><label class="control-label" for="shippingcity">Shipping City</label>
                     <div class="controls">
                         <input id="shippingcity" name="shippingcity" type="text" placeholder="" class="form-control" required="">
                     </div>
                 </div>
 
-                <div class="form-group col-md-6">
+                <div class="form-group col-md-6 pd0">
                     <span class="required-lbl">* </span><label class="control-label" for="postcode">Post Code</label>
                     <div class="controls">
                         <input id="postcode" name="postcode" type="text" placeholder="" class="form-control" required="">
@@ -109,33 +109,35 @@ $url_path = str_replace('\\', '/', $url_path);
                     </div>
                 </div>
 
-                <div class="form-group col-md-6">
+                <div class="form-group col-md-6 pd0">
                     <span class="required-lbl">* </span><label class="control-label" for="firstnameonaccount">First Name on Account</label>
                     <div class="controls">
                         <input id="firstnameonaccount" name="firstnameonaccount" type="text" placeholder="" class="form-control" required="">
                     </div>
                 </div>
 
-                <div class="form-group col-md-6">
+                <div class="form-group col-md-6 pd0">
                     <span class="required-lbl">* </span><label class="control-label" for="lastnameonaccount">Last Name on Account</label>
                     <div class="controls">
                         <input id="lastnameonaccount" name="lastnameonaccount" type="text" placeholder="" class="form-control" required="">
                     </div>
                 </div>
 
-                <div class="form-group col-md-6">
+                <div class="form-group col-md-6 pd0">
                     <span class="required-lbl">* </span><label class="control-label" for="cardnumber">Card Number</label>
                     <div class="controls">
                         <input id="cardnumber" name="cardnumber" type="text" placeholder="" class="form-control" required="">
                     </div>
                 </div>
 
-                <div class="form-group col-md-6" style="height: 60px;">
+                <div class="form-group col-md-6 pd0" style="height: 60px;">
                     Visa and master card Images
+                    <i class="fa fa-cc-mastercard" aria-hidden="true"></i>
+                    <i class="fa fa-cc-visa" aria-hidden="true"></i>
                 </div>
 
                 <div class="form-group col-md-6 card-expiry">
-                    <div class="control-group col-md-4">
+                    <div class="control-group col-md-4 pd0">
                         <span class="required-lbl">* </span><label class="control-label" for="cvv">CVV</label>
                         <div class="controls">
                             <input id="cvv" name="cvv" type="text" placeholder="" class="form-control" required="">
@@ -203,21 +205,21 @@ $url_path = str_replace('\\', '/', $url_path);
                     <label class="control-label" for="billinginformation">Billing Address</label>
                 </div>
 
-                <div class="form-group col-md-6">
+                <div class="form-group col-md-6 pd0">
                     <span class="required-lbl">* </span><label class="control-label" for="billingaddress1">Address 1</label>
                     <div class="controls">
                         <input id="billingaddress1" name="billingaddress1" type="text" placeholder="" class="form-control" required="">
                     </div>
                 </div>
 
-                <div class="form-group col-md-6">
+                <div class="form-group col-md-6 pd0">
                     <label class="control-label" for="billingaddress2">Address 2</label>
                     <div class="controls">
                         <input id="billingaddress2" name="billingaddress2" type="text" placeholder="" class="form-control" required="">
                     </div>
                 </div>
 
-                <div class="form-group col-md-6">
+                <div class="form-group col-md-6 pd0">
                     <span class="required-lbl">* </span><label class="control-label" for="billingcountry">Billing Country</label>
                     <div class="controls">
                         <div class="controls">
@@ -229,7 +231,7 @@ $url_path = str_replace('\\', '/', $url_path);
                     </div>
                 </div>
 
-                <div class="form-group col-md-6">
+                <div class="form-group col-md-6 pd0">
                     <span class="required-lbl">* </span><label class="control-label" for="billingstate">Billing State</label>
                     <div class="controls">
                         <select id="billingstate" name="billingstate" class="input-xlarge">
@@ -247,14 +249,14 @@ $url_path = str_replace('\\', '/', $url_path);
                     </div>
                 </div>
 
-                <div class="form-group col-md-6">
+                <div class="form-group col-md-6 pd0">
                     <span class="required-lbl">* </span><label class="control-label" for="billingcity">Billing City</label>
                     <div class="controls">
                         <input id="billingcity" name="billingcity" type="text" placeholder="" class="form-control" required="">
                     </div>
                 </div>
 
-                <div class="form-group col-md-6">
+                <div class="form-group col-md-6 pd0">
                     <span class="required-lbl">* </span><label class="control-label" for="billingpostcode">Post Code</label>
                     <div class="controls">
                         <input id="billingpostcode" name="billingpostcode" type="text" placeholder="" class="form-control" required="">
@@ -266,7 +268,7 @@ $url_path = str_replace('\\', '/', $url_path);
                     <input id="contactinformation" style="display:none">
                 </div>
 
-                <div class="form-group col-md-6">
+                <div class="form-group col-md-6 pd0">
                     <span class="required-lbl">* </span><label class="control-label" for="emailaddress">Email Address</label>
                     <input id="emailaddress" style="display:none">
                     <div class="controls">
@@ -274,14 +276,14 @@ $url_path = str_replace('\\', '/', $url_path);
                     </div>
                 </div>
 
-                <div class="form-group col-md-6">
+                <div class="form-group col-md-6 pd0">
                     <label class="control-label" for="phone">Phone</label>
                     <div class="controls">
                         <input id="phone" name="phone" type="number" placeholder="" class="form-control" required="">
                     </div>
                 </div>
 
-                <div class="form-group col-md-6">
+                <div class="form-group col-md-6 pd0">
                     <label class="control-label" for="organization">Organization</label>
                     <div class="controls">
                         <input id="organization" name="organization" type="text" placeholder="" class="form-control" required="">
@@ -294,7 +296,7 @@ $url_path = str_replace('\\', '/', $url_path);
 
                 <label class="content-late">* To avoid duplication, Type "YES" if you are a current subscriber wishing to extend your subscription OR "NO" if you don’t have an active subscription</label>
 
-                <div class="form-group col-md-6">
+                <div class="form-group col-md-6 pd0">
                     <div class="controls">
                         <input id="additionalinfo" name="additionalinfo" type="text" placeholder="" class="form-control" required="">
                     </div>
