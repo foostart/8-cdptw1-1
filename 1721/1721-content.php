@@ -18,7 +18,7 @@ $url_path = str_replace('\\', '/', $url_path);
              <a href="#">
                  <img class="img-responsive" src="http://<?php echo $url_path ?>/images/slide1_image.jpg" alt="Chania">
                 <div class="caption slide">
-                    <div class="title">
+                    <div class="title" style="position: absolute;width: 100%;bottom: 24%;text-align: center;">
                         <h2><strong>iphone 6s</strong></h2>
                         <p>The only thing that's changed is everything</p>
                         <span class="btn btn-primary b1"><strong>Shop now</strong></span>
@@ -30,7 +30,7 @@ $url_path = str_replace('\\', '/', $url_path);
             <a href="#">
                 <img class="img-responsive" src="http://<?php echo $url_path ?>/images/slide2_image.jpg" alt="Chania">
                 <div class="caption slide2">
-                    <div class="title">
+                    <div class="title" style="position: absolute;width: 47%;bottom: 40%;text-align: center;">
                         <h2><strong>HW-400</strong></h2>
                         <p>Wireless Over Ear Headphones</p>
                         <span class="btn btn-primary b1"><strong>Shop now</strong></span>
@@ -41,7 +41,7 @@ $url_path = str_replace('\\', '/', $url_path);
                 <a href="#">
                     <img class="img-responsive" src="http://<?php echo $url_path ?>/images/slide3_image.jpg" alt="Flower">
                     <div class="caption slide3">
-                        <div class="title">
+                        <div class="title" style="position: absolute;width: 100%;bottom: 15%;text-align: center;">
                             <h2><strong>Reliable gadgets from leading manufacturers</strong></h2>
                             <p>Available in just a few taps</p>
                             <span class="btn btn-primary b1"><strong>Read more</strong></span>
@@ -52,8 +52,8 @@ $url_path = str_replace('\\', '/', $url_path);
         </div>
         <!-- Add Pagination -->
         <div class="swiper-pagination"></div>
-            <div class="swiper-button-next"><i class="fa fa-angle-right" aria-hidden="true"></i></div>
-            <div class="swiper-button-prev"><i class="fa fa-angle-left" aria-hidden="true"></i></div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
     </div>
 </div>
 

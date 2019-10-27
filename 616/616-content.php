@@ -302,7 +302,7 @@ $url_path = str_replace('\\', '/', $url_path);
                     </div>
                 </div>
 
-                <div class="form-group col-md-12">
+                <div class="form-group col-md-6" style="padding-left: 20px;margin-top: -14px;">
                     <div class="control-group">
                         <label class="control-label" for="iaccept"></label>
                         <input id="iaccept" style="display:none">

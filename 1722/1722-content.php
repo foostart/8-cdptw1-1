@@ -14,14 +14,14 @@ $url_path = str_replace('\\', '/', $url_path);
 	<div class="type-1824">
 		<div class="container">
     		<div class="row kc">
-        		<div class="col-md-4 col-sm-6 col-xs-12">
+        		<div class="col-md-4 col-sm-4 col-xs-12">
             		<div class="panel panel-primary">
                 		<div class="panel-heading">
                     		<h3 class="panel-title">Bronze</h3>
             			</div>
                 		<div class="panel-body">
                     		<div class="the-price">
-                        		<h1>$10<span class="subscript">/mo</span></h1>
+                        		<h2>$10<span class="subscript">/mo</span></h2>
                         		<small>1 month FREE trial</small>
                     		</div>
                     		<table class="table">
@@ -69,7 +69,7 @@ $url_path = str_replace('\\', '/', $url_path);
             		</div>
        			</div>
 
-        		<div class="col-md-4 col-sm-6 col-xs-12">
+        		<div class="col-md-4 col-sm-4 col-xs-12">
             		<div class="panel panel-success">
 		                <div class="cnrflash">
 		                    <div class="cnrflash-inner">
@@ -86,7 +86,7 @@ $url_path = str_replace('\\', '/', $url_path);
 
                 		<div class="panel-body">
                     		<div class="the-price">
-                        		<h1>$20<span class="subscript">/mo</span></h1>
+                        		<h2>$20<span class="subscript">/mo</span></h2>
                         		<small>1 month FREE trial</small>
                     		</div>
 
@@ -136,7 +136,7 @@ $url_path = str_replace('\\', '/', $url_path);
             		</div>
         		</div>
 
-        		<div class="col-md-4 col-sm-6 col-xs-12">
+        		<div class="col-md-4 col-sm-4 col-xs-12">
             		<div class="panel panel-info">
                 		<div class="panel-heading">
                     		<h3 class="panel-title">Gold</h3>
@@ -144,7 +144,7 @@ $url_path = str_replace('\\', '/', $url_path);
 
             		<div class="panel-body">
                     	<div class="the-price">
-                        	<h1>$35<span class="subscript">/mo</span></h1>
+                        	<h2>$35<span class="subscript">/mo</span></h2>
                         	<small>1 month FREE trial</small>
                     	</div>
 

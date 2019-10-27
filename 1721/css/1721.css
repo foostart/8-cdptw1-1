@@ -1,64 +1,70 @@
-.type-1823 .swiper-container {
+.type-1721 .title {
+  position: absolute;
+  bottom: 13%;
+  width: 100%;
+  text-align: center;
+}
+.type-1721 .swiper-container {
   position: relative;
   overflow: auto;
   list-style: none;
 }
-.type-1823 .swiper-container .swiper-wrapper {
+.type-1721 .swiper-container .swiper-wrapper {
   display: -webkit-box;
 }
-.type-1823 .swiper-container .swiper-wrapper .swiper-slide {
+.type-1721 .swiper-container .swiper-wrapper .swiper-slide {
   cursor: pointer;
 }
-.type-1823 .swiper-container .swiper-wrapper .swiper-slide img {
+.type-1721 .swiper-container .swiper-wrapper .swiper-slide img {
   width: 100%;
 }
-.type-1823 .swiper-container .slide {
+.type-1721 .swiper-container .slide {
   text-align: center;
   margin-top: -250px;
   margin-bottom: 250px;
 }
-.type-1823 .swiper-container .slide .title h2 {
+.type-1721 .swiper-container .slide .title h2 {
   color: #ea1e36;
   font: 50px Libre Baskerville;
 }
-.type-1823 .swiper-container .slide .title p {
+.type-1721 .swiper-container .slide .title p {
   color: #ea1e36;
   font: 20px Libre Baskerville;
   letter-spacing: 0.15em;
 }
-.type-1823 .swiper-container .slide2 {
+.type-1721 .swiper-container .slide2 {
   margin: -450px 200px 450px 200px;
   text-align: left;
 }
-.type-1823 .swiper-container .slide2 .title h2 {
+.type-1721 .swiper-container .slide2 .title h2 {
   color: goldenrod;
   font: 50px Libre Baskerville;
 }
-.type-1823 .swiper-container .slide2 .title p {
+.type-1721 .swiper-container .slide2 .title p {
   letter-spacing: 0.15em;
   color: goldenrod;
   font: 20px Libre Baskerville;
 }
-.type-1823 .swiper-container .slide3 {
+.type-1721 .swiper-container .slide3 {
   text-align: center;
   margin-top: -350px;
   margin-bottom: 350px;
 }
-.type-1823 .swiper-container .slide3 .title h2 {
+.type-1721 .swiper-container .slide3 .title h2 {
   color: khaki;
   font: 40px Libre Baskerville;
 }
-.type-1823 .swiper-container .slide3 .title p {
+.type-1721 .swiper-container .slide3 .title p {
   letter-spacing: 0.15em;
   color: khaki !important;
   font: 20px Libre Baskerville;
 }
-.type-1823 .swiper-container .btn-primary {
+.type-1721 .swiper-container .btn-primary {
   background: brown;
   color: #fff;
   border-color: brown;
 }
-.type-1823 .swiper-container .btn {
+.type-1721 .swiper-container .btn {
   margin-top: 15px;
   margin-bottom: 15px;
   display: inline-block;
@@ -77,11 +83,11 @@
   border-radius: 4px;
   letter-spacing: 0.15em;
 }
-.type-1823 .swiper-container .btn-primary:hover {
+.type-1721 .swiper-container .btn-primary:hover {
   background: #b28d6a;
 }
-.type-1823 .swiper-container .swiper-button-next,
-.type-1823 .swiper-container .swiper-button-prev {
+.type-1721 .swiper-container .swiper-button-next,
+.type-1721 .swiper-container .swiper-button-prev {
   position: absolute;
   top: 50%;
   width: 2.7rem;
@@ -89,8 +95,8 @@
   margin-top: -2.2rem;
   cursor: pointer;
 }
-.type-1823 .swiper-container .swiper-button-prev,
-.type-1823 .swiper-container .swiper-container-rtl .swiper-button-next {
+.type-1721 .swiper-container .swiper-button-prev,
+.type-1721 .swiper-container .swiper-container-rtl .swiper-button-next {
   border-radius: 11.5rem;
   height: 11.5rem;
   width: 11.5rem;
@@ -100,8 +106,8 @@
   top: 46rem;
   background-image: none;
 }
-.type-1823 .swiper-container .swiper-button-next,
-.type-1823 .swiper-container .swiper-container-rtl .swiper-button-prev {
+.type-1721 .swiper-container .swiper-button-next,
+.type-1721 .swiper-container .swiper-container-rtl .swiper-button-prev {
   border-radius: 11.5rem;
   height: 11.5rem;
   width: 11.5rem;
@@ -111,30 +117,24 @@
   top: 46rem;
   background-image: none;
 }
-.type-1823 .swiper-container .fa-angle-right,
-.type-1823 .swiper-container .fa-angle-left {
+.type-1721 .swiper-container .fa-angle-right,
+.type-1721 .swiper-container .fa-angle-left {
   position: relative;
   color: #d3766e;
   font-size: 7rem;
   bottom: 200px;
   left: 4rem;
 }
-.type-1823 .swiper-container .fa-angle-right:hover {
+.type-1721 .swiper-container .fa-angle-right:hover {
   color: #896255;
 }
-.type-1823 .swiper-container .fa-angle-left:hover {
+.type-1721 .swiper-container .fa-angle-left:hover {
   color: #896255;
 }
-.type-1823 .swiper-pagination-bullets {
-  top: 74%;
-}
-.type-1823 .swiper-container-horizontal>.swiper-pagination-bullets .swiper-pagination-bullet {
-  margin: 0 0.5rem;
-}
-.type-1823 .swiper-container:hover .swiper-button-prev,
-.type-1823 .swiper-container:hover .swiper-container-rtl .swiper-button-next,
-.type-1823 .swiper-container:hover .swiper-button-next,
-.type-1823 .swiper-container:hover .swiper-container-rtl .swiper-button-prev {
+.type-1721 .swiper-container:hover .swiper-button-prev,
+.type-1721 .swiper-container:hover .swiper-container-rtl .swiper-button-next,
+.type-1721 .swiper-container:hover .swiper-button-next,
+.type-1721 .swiper-container:hover .swiper-container-rtl .swiper-button-prev {
   opacity: 1;
 }
 @media (max-width: 1170px) {
