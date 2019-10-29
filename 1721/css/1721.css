@@ -1,68 +1,57 @@
-.type-1721 .title {
-  position: absolute;
-  bottom: 13%;
-  width: 100%;
-  text-align: center;
+.type-1721 .khung1 {
+  color: red;
+}
+.type-1721 .khung2 {
+  color: goldenrod;
+}
+.type-1721 .khung3 {
+  color: khaki;
+}
+.type-1721 html,
+.type-1721 body {
+  position: relative;
+  height: 100%;
+}
+.type-1721 body {
+  background: #eee;
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  color: #000;
+  margin: 0;
+  padding: 0;
 }
 .type-1721 .swiper-container {
-  position: relative;
-  overflow: auto;
-  list-style: none;
+  width: 100%;
+  height: 100%;
+  margin-left: auto;
+  margin-right: auto;
 }
-.type-1721 .swiper-container .swiper-wrapper {
+.type-1721 .swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
   display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
 }
-.type-1721 .swiper-container .swiper-wrapper .swiper-slide {
-  cursor: pointer;
-}
-.type-1721 .swiper-container .swiper-wrapper .swiper-slide img {
+.type-1721 .swiper-slide img {
   width: 100%;
 }
-.type-1721 .swiper-container .slide {
-  text-align: center;
-  margin-top: -250px;
-  margin-bottom: 250px;
-}
-.type-1721 .swiper-container .slide .title h2 {
-  color: #ea1e36;
-  font: 50px Libre Baskerville;
-}
-.type-1721 .swiper-container .slide .title p {
-  color: #ea1e36;
-  font: 20px Libre Baskerville;
-  letter-spacing: 0.15em;
-}
-.type-1721 .swiper-container .slide2 {
-  margin: -450px 200px 450px 200px;
-  text-align: left;
-}
-.type-1721 .swiper-container .slide2 .title h2 {
-  color: goldenrod;
-  font: 50px Libre Baskerville;
-}
-.type-1721 .swiper-container .slide2 .title p {
-  letter-spacing: 0.15em;
-  color: goldenrod;
-  font: 20px Libre Baskerville;
-}
-.type-1721 .swiper-container .slide3 {
-  text-align: center;
-  margin-top: -350px;
-  margin-bottom: 350px;
-}
-.type-1721 .swiper-container .slide3 .title h2 {
-  color: khaki;
-  font: 40px Libre Baskerville;
-}
-.type-1721 .swiper-container .slide3 .title p {
-  letter-spacing: 0.15em;
-  color: khaki !important;
-  font: 20px Libre Baskerville;
-}
-.type-1721 .swiper-container .btn-primary {
-  background: brown;
-  color: #fff;
-  border-color: brown;
+.type-1721 .swiper-slide .khung {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  background-size: cover;
+  font-size: 20px;
 }
 .type-1721 .swiper-container .btn {
   margin-top: 15px;
@@ -83,223 +72,42 @@
   border-radius: 4px;
   letter-spacing: 0.15em;
 }
-.type-1721 .swiper-container .btn-primary:hover {
-  background: #b28d6a;
+.type-1721 .btn-primary {
+  background: brown;
+  color: #fff;
 }
-.type-1721 .swiper-container .swiper-button-next,
-.type-1721 .swiper-container .swiper-button-prev {
-  position: absolute;
-  top: 50%;
-  width: 2.7rem;
-  height: 4.4rem;
-  margin-top: -2.2rem;
-  cursor: pointer;
+.type-1721 .btn-primary:hover {
+  background-color: #cc6600;
 }
-.type-1721 .swiper-container .swiper-button-prev,
-.type-1721 .swiper-container .swiper-container-rtl .swiper-button-next {
-  border-radius: 11.5rem;
-  height: 11.5rem;
-  width: 11.5rem;
-  right: auto;
-  opacity: 0;
-  position: absolute;
-  top: 46rem;
+.type-1721 .swiper-button-next {
   background-image: none;
+  font-size: 50px;
 }
-.type-1721 .swiper-container .swiper-button-next,
-.type-1721 .swiper-container .swiper-container-rtl .swiper-button-prev {
-  border-radius: 11.5rem;
-  height: 11.5rem;
-  width: 11.5rem;
-  left: auto;
-  opacity: 0;
-  position: absolute;
-  top: 46rem;
+.type-1721 .swiper-button-next:hover {
+  color: red;
+}
+.type-1721 .swiper-button-prev {
   background-image: none;
+  font-size: 50px;
 }
-.type-1721 .swiper-container .fa-angle-right,
-.type-1721 .swiper-container .fa-angle-left {
-  position: relative;
-  color: #d3766e;
-  font-size: 7rem;
-  bottom: 200px;
-  left: 4rem;
+.type-1721 .swiper-button-prev:hover {
+  color: red;
 }
-.type-1721 .swiper-container .fa-angle-right:hover {
-  color: #896255;
+.type-1721 .swiper-pagination-bullet:hover {
+  background: red;
 }
-.type-1721 .swiper-container .fa-angle-left:hover {
-  color: #896255;
-}
-.type-1721 .swiper-container:hover .swiper-button-prev,
-.type-1721 .swiper-container:hover .swiper-container-rtl .swiper-button-next,
-.type-1721 .swiper-container:hover .swiper-button-next,
-.type-1721 .swiper-container:hover .swiper-container-rtl .swiper-button-prev {
-  opacity: 1;
-}
-@media (max-width: 1170px) {
-  .fa-angle-right,
-  .fa-angle-left {
-    bottom: 250px !important;
+@media (max-width: 600px) {
+  .type-1721 .khung {
+    top: 42% !important;
+    font-size: 11px !important;
   }
-  .slide {
-    margin-top: -200px !important;
-    margin-bottom: 200px !important;
-  }
-  .slide2 {
-    margin: -350px 200px 350px 200px !important;
-  }
-  .slide3 {
-    margin-top: -300px !important;
-    margin-bottom: 300px !important;
-  }
-  .slide3 .title h2 {
-    font: 35px Libre Baskerville !important;
-  }
-  .slide3 .title p {
-    font: 15px Libre Baskerville;
+  .type-1721 .khung .btn-primary {
+    height: 10px;
   }
 }
-@media (max-width: 900px) {
-  .fa-angle-right,
-  .fa-angle-left {
-    bottom: 300px !important;
-  }
-  .slide {
-    margin-top: -190px !important;
-    margin-bottom: 190px !important;
-  }
-  .slide2 {
-    margin: -300px 200px 300px 200px !important;
-  }
-  .slide3 {
-    margin-top: -250px !important;
-    margin-bottom: 250px !important;
-  }
-}
-@media (max-width: 700px) {
-  .fa-angle-right,
-  .fa-angle-left {
-    bottom: 350px !important;
-  }
-  .btn {
-    padding: 6px 10px !important;
-  }
-  .slide .title h2 {
-    font: 35px Libre Baskerville !important;
-  }
-  .slide .title p {
-    font: 15px Libre Baskerville !important;
-    letter-spacing: 0.0em !important;
-  }
-  .slide2 {
-    margin: -200px 100px 200px 100px !important;
-  }
-  .slide2 .title h2 {
-    font: 35px Libre Baskerville !important;
-  }
-  .slide2 .title p {
-    font: 15px Libre Baskerville !important;
-    letter-spacing: 0.0em !important;
-  }
-  .slide3 {
-    margin-top: -170px !important;
-    margin-bottom: 170px !important;
-  }
-  .slide3 .title h2 {
-    font: 20px Libre Baskerville !important;
-  }
-  .slide3 .title p {
-    font: 10px Libre Baskerville !important;
-    letter-spacing: 0.0em !important;
-  }
-}
-@media (max-width: 479px) {
-  .fa-angle-right,
-  .fa-angle-left {
-    display: none;
-  }
-}
-@media (max-width: 450px) {
-  .slide {
-    margin-top: -170px !important;
-    margin-bottom: 170px !important;
-  }
-  .slide2 {
-    margin-top: -170px !important;
-    margin-bottom: 170px !important;
-  }
-}
-@media (max-width: 390px) {
-  .btn {
-    padding: 3px 9px !important;
-  }
-  .slide {
-    margin-top: -150px !important;
-    margin-bottom: 150px !important;
-  }
-  .slide .title h2 {
-    font: 20px Libre Baskerville !important;
-  }
-  .slide .title p {
-    font: 10px Libre Baskerville !important;
-  }
-  .slide2 {
-    margin-top: -150px !important;
-    margin-bottom: 150px !important;
-  }
-  .slide2 .title h2 {
-    font: 20px Libre Baskerville !important;
-  }
-  .slide2 .title p {
-    font: 10px Libre Baskerville !important;
-  }
-  .slide3 {
-    margin-top: -150px !important;
-    margin-bottom: 150px !important;
-  }
-  .slide3 .title h2 {
-    font: 20px Libre Baskerville !important;
-  }
-  .slide3 .title p {
-    font: 10px Libre Baskerville !important;
-  }
-}
-@media (max-width: 300px) {
-  .btn {
-    margin-top: 5px !important;
-    margin-bottom: 5px !important;
-  }
-  .slide {
-    margin-top: -110px !important;
-    margin-bottom: 110px !important;
-  }
-  .slide .title h2 {
-    font: 15px Libre Baskerville !important;
-  }
-  .slide .title p {
-    margin: 0px !important;
-    font: 10px Libre Baskerville !important;
-  }
-  .slide2 {
-    margin: -110px 20px 110px 20px !important;
-  }
-  .slide2 .title h2 {
-    font: 15px Libre Baskerville !important;
-  }
-  .slide2 .title p {
-    margin: 0px !important;
-    font: 10px Libre Baskerville !important;
-  }
-  .slide3 {
-    margin-top: -120px !important;
-    margin-bottom: 120px !important;
-  }
-  .slide3 .title h2 {
-    font: 15px Libre Baskerville !important;
-  }
-  .slide3 .title p {
-    margin: 0px !important;
-    font: 10px Libre Baskerville !important;
+@media (min-width: 600px) and (max-width: 900px) {
+  .type-1721 .khung {
+    top: 47% !important;
+    font-size: 13px !important;
   }
 }
