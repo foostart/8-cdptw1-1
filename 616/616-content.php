@@ -20,7 +20,7 @@ $url_path = str_replace('\\', '/', $url_path);
             <strong>Purchase Summary:</strong>
             <h2 class="bg-success">Today's Total: $74.95 AUD</h2>
 
-            <div class="form-group col-md-12 bg-primary">
+            <div class="form-group col-md-12 bg-primary bt3">
                 <label class="control-label" for="billinginformation">Shipping Information</label>
             </div>
 
@@ -55,14 +55,12 @@ $url_path = str_replace('\\', '/', $url_path);
 
                 <div class="form-group col-md-6 pd0">
                     <span class="required-lbl">* </span><label class="control-label" for="shippingcountry">Shipping Country</label>
-                    <div class="controls">
                         <div class="controls">
                              <select id="inputState" class="form-control">
                                 <option>Please Select</option>
                                 <option>Australia</option>
                             </select>
                         </div>
-                    </div>
                 </div>
 
                 <div class="form-group col-md-6 pd0">
@@ -99,7 +97,7 @@ $url_path = str_replace('\\', '/', $url_path);
 
                 <hr/>
 
-                <div class="form-group col-md-12 bg-primary">
+                <div class="form-group col-md-12 bg-primary bt3">
                     <div class="controls">
                         <label class="control-label" for="billinginformation">Billing Information</label>
                         <label class="checkbox" for="billinginformation">
@@ -201,7 +199,7 @@ $url_path = str_replace('\\', '/', $url_path);
 
         <hr/>
 
-        <div class="form-group col-md-12 bg-primary">
+        <div class="form-group col-md-12 bg-primary bt3">
             <label class="control-label" for="billinginformation">Billing Address</label>
         </div>
 
@@ -221,7 +219,6 @@ $url_path = str_replace('\\', '/', $url_path);
 
         <div class="form-group col-md-6 pd0">
             <span class="required-lbl">* </span><label class="control-label" for="billingcountry">Billing Country</label>
-            <div class="controls">
                 <div class="controls">
                     <select id="inputState" class="form-control">
                         <option>Please Select</option>
@@ -229,7 +226,6 @@ $url_path = str_replace('\\', '/', $url_path);
                     </select>
                 </div>
             </div>
-        </div>
 
         <div class="form-group col-md-6 pd0">
             <span class="required-lbl">* </span><label class="control-label" for="billingstate">Billing State</label>
@@ -264,7 +260,7 @@ $url_path = str_replace('\\', '/', $url_path);
         </div>
 
         <div class="form-group col-md-12 bg-primary late">
-            <label class="control-label" for="contactinformation" style="margin-left:-8px">Contact Information:</label>
+            <label class="control-label" for="contactinformation" style="margin-left:-8px;margin-bottom: -10px">Contact Information:</label>
             <input id="contactinformation" style="display:none">
         </div>
 
@@ -291,7 +287,7 @@ $url_path = str_replace('\\', '/', $url_path);
         </div>
 
         <div class="form-group col-md-12 bg-primary late">
-            <label class="control-label" for="contactinformation" style="margin-left:-8px">Additional Information:</label>
+            <label class="control-label" for="contactinformation" style="margin-left:-8px;margin-bottom: -10px">Additional Information:</label>
         </div>
 
         <label class="content-late">* To avoid duplication, Type "YES" if you are a current subscriber wishing to extend your subscription OR "NO" if you don’t have an active subscription</label>

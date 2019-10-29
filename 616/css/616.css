@@ -10,7 +10,7 @@
   font-size: 13px;
 }
 .type-616 h2 {
-  padding: 15px;
+  padding: 15px 0;
 }
 .type-616 .required-lbl {
   color: red;
@@ -71,5 +71,10 @@
   }
   .type-616 label {
     font-size: 13px;
+  }
+}
+@media (min-width: 400px) and (max-width: 1200px) {
+  .type-616 .bt3 {
+    padding-bottom: 32px;
   }
 }
