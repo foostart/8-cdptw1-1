@@ -11,11 +11,11 @@ $url_path = $url_host . $matches[1][0];
 
 $url_path = str_replace('\\', '/', $url_path);
 ?>
-<div class="type-1825">
+<div class="type-1723">
   <div class="content"></div>
   <div class="container">
     <div class="row">
-      <div class="col-md-4 col-sm-12 col-xs-12">
+      <div class="col-md-4 col-sm-4 col-xs-12">
         <div class="panel panel-default">
           <div class="panel-heading">
             <h3 class="panel-title">Billing</h3>
@@ -25,7 +25,7 @@ $url_path = str_replace('\\', '/', $url_path);
           </div>
         </div>
       </div>
-      <div class="col-md-4 col-sm-12 col-xs-12">
+      <div class="col-md-4 col-sm-4 col-xs-12">
         <div class="panel panel-default">
           <div class="panel-heading">
             <div class="panel-title">
@@ -46,7 +46,7 @@ $url_path = str_replace('\\', '/', $url_path);
                 <label>EXPIRATION DATE</label>
                 <div class="input-group">
                  <div class="col-xs-6 col-lg-6 pl-ziro">
-                   <input type="text" class="col-md-6 form-control"  placeholder="MM" required data-stripe="exp_month" />
+                   <input type="text" class="col-md-6 form-control"  placeholder="MM" required data-stripe="exp_month" style="width: 90%" />
                  </div>
                  <div class="col-xs-6 col-lg-6 pl-ziro">
                   <input type="text" class="col-md-6 form-control"  placeholder="YYYY" required data-stripe="exp_year" />
