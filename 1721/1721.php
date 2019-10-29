@@ -22,8 +22,6 @@ $less->compileFile('less/1721.less', 'css/1721.css');
         <link rel="stylesheet" type="text/css" href="css/swiper.min.css">
         <link rel="stylesheet" type="text/css" href="css/1721.css">
         <link href="css/font-awesome.min.css" rel="stylesheet" type="text/css"/>
-        
-        
         <script src="js/jquery-2.1.4.min.js"></script>
         <script type="text/javascript" src="js/swiper.min.js"></script>
         <script src="js/bootstrap.min.js"></script>
