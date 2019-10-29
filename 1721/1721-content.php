@@ -22,11 +22,7 @@ $url_path = str_replace('\\', '/', $url_path);
     <div class="swiper-slide">
       <a href="#">
         <img src="image/3.jpg">
-        <div  class="khung" style="    position: absolute;
-    top: 18%;
-    width: 70%;
-    background-size: cover;
-    font-size: 28px;">
+        <div  class="khung" style="position: absolute;top: 18%;width: 70%;background-size: cover;font-size: 28px;">
           <h1 ><strong class="khung2">HW-400</strong></h1>
           <p class="khung2">Wireless Over Ear Headphones</p>
           <span class="btn btn-primary b1"><strong>Shop now</strong></span>
