@@ -46,7 +46,7 @@ $url_path = str_replace('\\', '/', $url_path);
                 <label>EXPIRATION DATE</label>
                 <div class="input-group">
                  <div class="col-xs-6 col-lg-6 pl-ziro">
-                   <input type="text" class="col-md-6 form-control"  placeholder="MM" required data-stripe="exp_month" style="width: 90%" />
+                   <input type="text" class="col-md-6 form-control" id="datepicker"  placeholder="MM" required data-stripe="exp_month" style="width: 90%" />
                  </div>
                  <div class="col-xs-6 col-lg-6 pl-ziro">
                   <input type="text" class="col-md-6 form-control"  placeholder="YYYY" required data-stripe="exp_year" />
