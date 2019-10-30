@@ -20,14 +20,16 @@ $less->compileFile('less/1721.less', 'css/1721.css');
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>1721</title>
         <link rel="stylesheet" type="text/css" href="css/swiper.min.css">
-        <link rel="stylesheet" type="text/css" href="css/1721.css">
+        <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
         <link href="css/font-awesome.min.css" rel="stylesheet" type="text/css"/>
+        <link rel="stylesheet" type="text/css" href="css/1721.css">
+        
         <script src="js/jquery-2.1.4.min.js"></script>
         <script type="text/javascript" src="js/swiper.min.js"></script>
         <script src="js/bootstrap.min.js"></script>
         <script src="js/1721.js"></script>
     </head>
     <body>
-        <?php include '../1721/1721-content.php'; ?>
+        <?php include '1721-content.php'; ?>
     </body>
 </html>
