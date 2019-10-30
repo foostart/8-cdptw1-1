@@ -30,7 +30,12 @@ $url_path = str_replace('\\', '/', $url_path);
           <div class="panel-heading">
             <div class="panel-title">
               <p>Payment Details </p>
-              <img  class="img-responsive" src="http://<?php echo $url_path ?>/images/accepted_c22e0.png" alt="">
+				<div class="pay">
+                <i class="fa fa-cc-visa" aria-hidden="true"></i>
+                <i class="fa fa-cc-mastercard" aria-hidden="true"></i>
+                <i class="fa fa-cc-discover" aria-hidden="true"></i>
+                <i class="fa fa-cc-amex" aria-hidden="true"></i>
+              </div>
             </div>
           </div>
           <div class="panel-body">
