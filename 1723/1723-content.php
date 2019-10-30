@@ -60,7 +60,7 @@ $url_path = str_replace('\\', '/', $url_path);
             </div>
             <div class="form-group">
               <label>CV CODE</label>
-              <input type="password" class="form-control"  placeholder="CV" required data-stripe="cvc" />
+              <input type="password" class="form-control" autocomplete="on"  placeholder="CV" required data-stripe="cvc" />
             </div>
             <div class="form-group">
               <label>COUPON CODE</label>
