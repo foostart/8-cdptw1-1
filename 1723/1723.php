@@ -25,10 +25,10 @@ $less->compileFile('less/1723.less', 'css/1723.css');
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="description" content="Basic usage demo">
     <meta name="author" content="David Deutsch">
-    <link href="<?php echo $url_path ?>/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
+    <link href="./css/font-awesome.min.css" rel="stylesheet" type="text/css" />
     <link rel="stylesheet" href="css/jquery-ui.css">
-    <link href="<?php echo $url_path ?>/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
-    <link href="<?php echo $url_path ?>/css/1723.css" rel="stylesheet" type="text/css"/>
+    <link href="./css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+    <link href="./css/1723.css" rel="stylesheet" type="text/css"/>
     <script src="js/jquery.js"></script>
     <script src="js/jquery-ui.js"></script>
     <script type="text/javascript" src="js/1723.js"></script>
