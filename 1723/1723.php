@@ -31,7 +31,7 @@ $less->compileFile('less/1723.less', 'css/1723.css');
     <link href="<?php echo $url_path ?>/css/1723.css" rel="stylesheet" type="text/css"/>
     <script src="js/jquery.js"></script>
     <script src="js/jquery-ui.js"></script>
-        <script type="text/javascript" src="js/1723.js"></script>
+    <script type="text/javascript" src="js/1723.js"></script>
 </head>
 <body>
     <?php include '1723-content.php'; ?>

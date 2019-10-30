@@ -20,8 +20,8 @@ $url_path = str_replace('\\', '/', $url_path);
           <div class="panel-heading">
             <h3 class="panel-title">Billing</h3>
           </div>
-          <div class="panel-body"    style="padding: 11px;" >
-            <label>Invoice ID: 2016MM-ID</label>
+          <div class="panel-body" >
+            <label class="id">Invoice ID: 2016MM-ID</label>
           </div>
         </div>
       </div>

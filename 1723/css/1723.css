@@ -22,9 +22,7 @@
 .type-1723 .panel .panel-heading .panel-title {
   display: inline;
   font-weight: bold;
-}
-.type-1723 .panel .panel-heading .panel-title p {
-  margin: -3px 10px 11px 10px;
+  margin-left: 0px;
 }
 .type-1723 .panel .panel-body label {
   display: inline-block;
